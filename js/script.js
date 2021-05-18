@@ -5,8 +5,8 @@ $(document).ready(function(){
     speed: 500,
     fade: true,
     cssEase: 'linear',
-    prevArrow: "<img src='../icons/prev.png' class='prev' alt='1'>",
-    nextArrow: "<img src='../icons/next.png' class='next' alt='2'>",
+    prevArrow: "<img src='icons/prev.png' class='prev' alt='1'>",
+    nextArrow: "<img src='icons/next.png' class='next' alt='2'>",
   });
 });
 window.addEventListener('DOMContentLoaded', () => {
@@ -52,8 +52,8 @@ $('.team__list').slick({
   speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
-  prevArrow: "<img src='../icons/Arrow 4.png' class='prev' alt='1'>",
-  nextArrow: "<img src='../icons/Arrow 3.png' class='next' alt='2'>",
+  prevArrow: "<img src='icons/Arrow 4.png' class='prev' alt='1'>",
+  nextArrow: "<img src='icons/Arrow 3.png' class='next' alt='2'>",
   responsive: [
     {
       breakpoint: 1400,
